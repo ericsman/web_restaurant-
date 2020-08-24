@@ -1,0 +1,147 @@
+.maxim
+{
+    background-image: linear-gradient( to right, #000158, #9a98f1);
+
+}
+.register-left
+{
+    text-align: center;
+    color: #fff ;
+    padding: 30px;
+
+}
+.register-left img
+{
+    margin-top: 60px;
+    margin-bottom: 18px;
+    width: 80px;
+    animation: mover 1s infinite alternate;
+}
+
+.register-left .text
+{
+    padding: 20px 20px 0;
+}
+.register-left  .btn-primary
+{
+border-radius: 1.5rem;
+border: none;
+width: 120px;
+background: #f8f8f8;
+font-weight: 600;
+color: #555;
+margin-top: 20px;
+padding: 10px;
+}
+.register-left .btn-primary:hover
+{
+    background: black;
+}
+.register-right
+{
+    background-image: url(2.jpg);
+    border: none;
+    background-size: cover;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%; 
+    padding: 50px;
+}
+.register-right h2
+{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(237, 253, 251);
+}
+.register-form
+{
+    padding: 30px;
+    background: rgba(5, 226, 255, 0.582);
+    box-shadow: -2px 2px 70px 30px rgb(0, 0, 0);
+}
+
+.register-right  .btn-primary
+{
+    padding-top: 50px;
+    /* align-items: center; */
+    border-radius: 1.5rem;
+    border: none;
+    width: 150px;
+    background: rgba(5, 226, 255, 0.582);
+    box-shadow: 0px 1px 20px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    }  
+ .register-left  .btn-primary:hover
+{
+    background: #22ffe2; 
+ }
+    #mu-footer {
+        
+        background-color: rgba(0, 34, 56, 0.493);
+        display: block;
+        float: left;
+        padding: 3px 0;
+        width: 100%;
+      }
+      
+      .mu-footer-area {
+        padding-top: 5px;
+        display: inline;
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .mu-footer-social {
+        
+        display: inline;
+        /* float: left;
+        width: 100%; */
+        text-align: center;
+        /* margin-bottom: 10px; */
+      }
+      
+      .mu-footer-social a {
+
+        background-color: #555;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        font-size: 20px;
+        height: 45px;
+        line-height: 47px;
+        margin: 5px;
+        text-align: center;
+        width: 45px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      
+      .mu-footer-copyright {
+        display: inline;
+        /* float: left;
+        width: 100%; */
+      }
+      
+      .mu-footer-copyright p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        color: #fff;
+      }
+      
+      .mu-footer-copyright p a {
+        color: #fff;
+      }
+
+
+    @keyframes mover 
+    {
+        0%{transform: translateY(0);}
+        100%{transform: translateY(-20px);}
+    }

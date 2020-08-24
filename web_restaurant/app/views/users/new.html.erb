@@ -1,0 +1,50 @@
+<% if @user.errors.any? %>
+    <div class="alert alert-danger">
+        <ul>
+            <%= @user.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+        </ul>
+    </div>
+<% end %>
+
+
+
+
+
+<div class="maxim">
+    <div class="container">
+         <div class="row">
+            <div class="row">
+                <div class="col-md-5 register-left">
+                   <img src="1.png" alt="">
+                    <h3>Welcome</h3>
+                    <p class="text">Pour acceder à toutes les fonctionnalité de notre site il Faut crée une compt</p>
+                    <button type="button" class="btn btn-primary">Ici</button>
+                </div>
+                <div class="col-md-7 register-right" >
+                    <h2>Sign up</h2>
+                    <%= form_for @user, class: 'form-horizontal' do |f|%>
+                    <div class="register-form">
+                        <div class="form-group">
+                            <%= f.text_field :username, class: 'form-control', placeholder:"Username"%>
+                        </div>
+                        <div class="form-group">
+                            <%= f.email_field :email, class: 'form-control', placeholder:"email"%>
+                        </div>
+                   
+                        <div class="form-group">
+                            <%= f.password_field :password, class: 'form-control', placeholder:"*********"%>
+                        </div>
+                        <div class="form-group">
+                           
+                            <%= f.password_field :password_confirmation, class: 'form-control', placeholder:"*********"%>
+                        </div>
+                    </div>
+                    <center> <button type="submit" class="btn btn-primary">S'inscrire</button></center>
+                </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</div>
